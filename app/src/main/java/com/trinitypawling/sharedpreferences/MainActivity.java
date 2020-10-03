@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         Log.i("info",sp.toString());
         //get the value associated with key1
         Log.i("info",sp.getString("key1","test"));
+        Log.i("infomatics",sp.getString("key1","test"));
         tv.setText(sp.getString("key1","test"));
         hw.setText(sp.getInt("key2",0));
     }
